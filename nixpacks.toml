@@ -1,7 +1,9 @@
 # nixpacks.toml
 
-[phases.setup]
-nixPkgs = ['...', 'pkgs.elixir_1_15']
+# [phases.setup]
+# Default setup pulls `elixir`, which is 1.13.4
+# nixPkgs = ['...', 'pkgs.elixir_1_15']
+# nixPkgs = ['pkgs.elixir_1_15']
 
 # [phases.build]
 # cmds = ['mix release']
